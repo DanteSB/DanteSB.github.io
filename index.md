@@ -46,4 +46,81 @@ m = leaflet() %>%
   addMarkers(lng=174.768, lat=-36.852, popup=&quot;The birthplace of R&quot;)
 m  # Print the map
 ```
-
+<div id="htmlwidget-927ec88a166bf954e46a" style="width:100%;height:216px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-927ec88a166bf954e46a">{
+  "x": {
+    "options": {
+      "crs": {
+        "crsClass": "L.CRS.EPSG3857",
+        "code": null,
+        "proj4def": null,
+        "projectedBounds": null,
+        "options": {}
+      }
+    },
+    "calls": [
+      {
+        "method": "addTiles",
+        "args": [
+          "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          null,
+          null,
+          {
+            "minZoom": 0,
+            "maxZoom": 18,
+            "maxNativeZoom": null,
+            "tileSize": 256,
+            "subdomains": "abc",
+            "errorTileUrl": "",
+            "tms": false,
+            "continuousWorld": false,
+            "noWrap": false,
+            "zoomOffset": 0,
+            "zoomReverse": false,
+            "opacity": 1,
+            "zIndex": null,
+            "unloadInvisibleTiles": null,
+            "updateWhenIdle": null,
+            "detectRetina": false,
+            "reuseTiles": false,
+            "attribution": "&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap\u003c/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA\u003c/a>"
+          }
+        ]
+      },
+      {
+        "method": "addMarkers",
+        "args": [
+          -36.852,
+          174.768,
+          null,
+          null,
+          null,
+          {
+            "clickable": true,
+            "draggable": false,
+            "keyboard": true,
+            "title": "",
+            "alt": "",
+            "zIndexOffset": 0,
+            "opacity": 1,
+            "riseOnHover": false,
+            "riseOffset": 250
+          },
+          "The birthplace of R",
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "limits": {
+      "lat": [-36.852, -36.852],
+      "lng": [174.768, 174.768]
+    }
+  },
+  "evals": [],
+  "jsHooks": []
+}</script>
