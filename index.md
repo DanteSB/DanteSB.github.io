@@ -39,9 +39,10 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 ```r
-
-m &lt;- leaflet() %&gt;%
-  addTiles() %&gt;%  # Add default OpenStreetMap map tiles
+library(leaflet)
+library(magrittr)
+m = leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
   addMarkers(lng=174.768, lat=-36.852, popup=&quot;The birthplace of R&quot;)
 m  # Print the map
 ```
