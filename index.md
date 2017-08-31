@@ -47,4 +47,4 @@ m = leaflet() %>%
 m  # Print the map
 ```
 
-<a href="leaf.html">my link</a>
+<a href="/leaf.html">my link</a>
