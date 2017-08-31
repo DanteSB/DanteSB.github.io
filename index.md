@@ -46,3 +46,5 @@ m = leaflet() %>%
   addMarkers(lng=174.768, lat=-36.852, popup=&quot;The birthplace of R&quot;)
 m  # Print the map
 ```
+
+[link](https://github.com/DanteSB/DanteSB.github.io/blob/master/index.html)
