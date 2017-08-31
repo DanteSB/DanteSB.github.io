@@ -47,4 +47,4 @@ m = leaflet() %>%
 m  # Print the map
 ```
 
-[link](https://github.com/DanteSB/DanteSB.github.io/blob/master/index.html)
+<a href="index.html">my link</a>
